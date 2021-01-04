@@ -53,7 +53,7 @@ class NoteAdapter(
     ) : RecyclerView.ViewHolder(itemView) {
 
         fun bind(item: Note) {
-            itemView.txtTitle.text = item.id.toString()
+            itemView.txtTitle.text = item.title
             itemView.txtDescription.text = item.description
             val viewColor = if (item.tag.toString().isEmpty())"#FFFFFF" else item.tag.toString()
             itemView.cardView.setCardBackgroundColor(Color.parseColor(viewColor))
