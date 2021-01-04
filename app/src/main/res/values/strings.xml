@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PayCraft Assignment</string>
+    <string name="title">Title</string>
+    <string name="notes">Notes</string>
+    <string name="save_note">Save Notes</string>
+    <string name="tag">Choose Colour Tag</string>
+</resources>
